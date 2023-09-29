@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import nl.openvalue.io.NEATBot;
 import nl.openvalue.rps.players.BeatLastMove;
 import nl.openvalue.rps.players.BeatMostPlayed;
 import nl.openvalue.rps.players.FairBot;
@@ -27,7 +28,7 @@ public class Arena {
         bots.add(new Bot(FairBot.class));
         bots.add(new Bot(ScissorBot.class));
         bots.add(new Bot(SimplePatternBot.class));
-        // TODO: Add your own bot here... !
+        bots.add(new Bot(NEATBot.class));
 
 
         /**
